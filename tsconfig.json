@@ -13,6 +13,7 @@
     ],
     "lib": ["es6", "dom"]
   },
+  
   "exclude": [
     "node_modules"
   ],
@@ -20,9 +21,9 @@
     "useWebpackText": true
   },
   "angularCompilerOptions": {
-    "debug": false
+    "debug": true
   },
-  "compileOnSave": false,
+  "compileOnSave": true,
   "buildOnSave": false,
   "atom": { "rewriteTsconfig": false }
 }
